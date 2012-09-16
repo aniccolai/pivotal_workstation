@@ -1,12 +1,10 @@
 machine:
-  timezone:
-    America/Denver
   ruby:
     version:
       1.9.3-p194-falcon
 
 dependencies:
-  pre:
+  post:
     - gem install foodcritic -v 1.4.0
 
 test:
